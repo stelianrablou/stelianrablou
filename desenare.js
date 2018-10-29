@@ -10,7 +10,7 @@ document.getElementById("id_start_button").disabled = false;
 //---------------------------------------------
 function deseneaza_cerc(unghi, context, w, h)
 {
-	//context.clearRect(0, 0, w, h);
+	context.clearRect(0, 0, w, h);
 	
 	context.beginPath();
 	context.arc(w / 2 + 100 * Math.cos(unghi.unghi * Math.PI / 180),
